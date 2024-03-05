@@ -86,7 +86,7 @@ body {
     display: flex;
     /* border: 2px solid black; */
 
-p {
+.aboutme-banner {
     margin-left: 670px;
     font-size: xx-large;
     text-shadow: 0 0 10px #FFDF80;
@@ -99,24 +99,38 @@ p {
     /* margin-top: 2px; */
 }
 
+.home-img {
+    display: flex;
+    align-items: center;
+}
+
 .home-img img {
     position: relative;
-    max-width: 400px;
+    margin-left: 200px;
+    max-width: 320px;
     box-shadow: 0 0 5px #FFDF80, 0 0 25 px wheat;
     /* height: 400px; */
     transition: 0.5s all ease;
     border-radius: 200%;
     /* visibility: hidden; */
     /* Initially hidden */
-    opacity: 0.3;
+    opacity: 0.4;
     /* Initially at 30-40% opacity */
     transition: visibility 0s, opacity 0.5s;
 }
 
 .home-img img:hover {
     /* box-shadow: 0 0 5px #FFDF80, 0 0 25px wheat, 0 0 50px #FFDF80, 0 0 100px wheat, 0 0 200px wheat; */
-    filter: drop-shadow(5px 5px 10px #FFDF80);
+    filter: drop-shadow(0 0 200px #FFDF80);
     visibility: visible;
     /* Visible on hover */
     opacity: 1
+}
+
+.home-img .text {
+    flex: 1;
+}
+
+.home-img .text p {
+    line-height: 1.5;
 }
