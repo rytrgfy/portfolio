@@ -89,6 +89,7 @@ hr {
     width: 100vw; */
     /* margin-top: 10%; */
     color: #FFDF80;
+    margin-top: 135px;
     /* background-color: snow; */
     /* display: flex; */
     /* margin-top: 2px; */
@@ -98,7 +99,7 @@ hr {
     height: 510px;
     width: 100%;
     /* background-color: #fff; */
-    border: 2px solid snow;
+    /* border: 2px solid snow; */
     display: flex;
     gap: 10px;
     justify-content: space-evenly;
@@ -189,6 +190,6 @@ hr {
 }
 
 .childdiv h6 i {
-    margin-top: 50px;
     font-size: 50px;
+    margin-top: 40px;
 }
