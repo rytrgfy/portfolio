@@ -132,5 +132,13 @@ body {
 }
 
 .home-img .text p {
-    line-height: 1.5;
+    /* line-height: 1.5; */
+    margin-left: 100px;
+    margin-right: 70px;
+    font-size: x-large;
+    /* text-shadow: 0 0 10px #FFDF80; */
+    /* height: 100px;
+    width: 100vw; */
+    margin-top: 1%;
+    color: #FFDF80;
 }
