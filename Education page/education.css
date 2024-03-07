@@ -112,7 +112,8 @@ hr {
 .childdiv {
     height: 80px;
     width: 70px;
-    border: 2px solid snow;
+    border: 2px solid #FFDF80;
+    box-shadow: 0 0 50px #FFDF80;
     border-radius: 20px;
     transition: 0.5s ease-in;
     overflow: hidden;
