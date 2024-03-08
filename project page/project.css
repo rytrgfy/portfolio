@@ -75,41 +75,21 @@ body {
     opacity: 1;
 }
 
-.card {
-    width: 300px;
-    height: 200px;
-    border: 2px solid transparent;
-    border-radius: 10px;
-    overflow: hidden;
-    transition: border-color 0.3s ease;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-}
-
-.card:hover {
-    border-color: rgb(255, 0, 0);
-    /* Change to the desired RGB color */
-    animation: border-pulse 1s infinite;
-}
-
-.card .content {
-    padding: 20px;
-    height: 100%;
+.maindiv {
+    height: 78vh;
+    width: 100%;
+    border: 2px solid snow;
+    margin-top: 150px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
 }
 
-@keyframes border-pulse {
-    0% {
-        border-width: 2px;
-    }
-    50% {
-        border-width: 4px;
-    }
-    100% {
-        border-width: 2px;
-    }
+.childdiv {
+    height: 60vh;
+    width: 20vw;
+    border: 2px solid beige;
+    border-radius: 20px;
 }
