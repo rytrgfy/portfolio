@@ -107,8 +107,8 @@
         text-shadow: 0 0 50px #FFDF80;
     }
     
-    .skill-card .skill-image {
-        filter: drop-shadow( 0 0 10px #FFDF80);
+    .skill-card .skill-image:hover {
+        filter: drop-shadow( 0 0 50px #FFDF80);
     }
     
     .skill-image {
