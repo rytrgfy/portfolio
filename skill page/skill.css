@@ -14,9 +14,11 @@
         position: fixed;
         top: 0;
         left: 0;
+        /* border: 2px solid snow; */
+        height: 100px;
         width: 100%;
         padding: 10px 8%;
-        background: transparent;
+        background: blur;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -75,36 +77,105 @@
         opacity: 1;
     }
     
-    .container {
-        height: 82vh;
-        width: 100%;
-        margin-top: 115px;
+    .skill-section {
+        position: relative;
+        margin: 100px;
+    }
+    
+    .heading {
+        text-align: center;
+        font-size: 60px;
+        color: #FFDF80;
+        text-transform: capitalize;
+        font-weight: 300;
+        margin-top: 50px;
+        text-shadow: 0 0 50px #FFDF80;
+    }
+    
+    .skills-container {
+        width: 95%;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 100px;
+        color: #FFDF80;
+        margin: 30px;
+    }
+    
+    .skill-card {
+        position: relative;
+        text-shadow: 0 0 50px #FFDF80;
+    }
+    
+    .skill-card .skill-image {
+        filter: drop-shadow( 0 0 10px #FFDF80);
+    }
+    
+    .skill-image {
+        height: 130px;
+        display: block;
+        margin: auto;
+    }
+    
+    .skill-name {
+        font-size: 30px;
+        font-weight: 300;
+        text-align: center;
+        text-transform: capitalize;
+        margin: 30px 0 20px;
+    }
+    
+    .skill-info {
+        text-align: center;
+        opacity: 0.5;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .skill-level {
+        position: absolute;
+        top: 80px;
+        /* right: 0; */
+        margin-left: 280px;
+        width: 70px;
+        height: 70px;
         display: flex;
-        /* justify-content: center; */
-        border: 2px solid snow;
-        gap: 5px;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        border-radius: 50%;
+        border: 5px solid black;
     }
     
-    .divs {
-        margin-top: 100px;
+    .skill-card:nth-child(1) .skill-level {
+        background: #1f242d;
+        border-color: #FFDF80;
+        color: wheat;
+        margin-left: 300px;
     }
     
-    .tsbox {
-        height: 300px;
-        width: 60%;
-        border: 1px solid snow;
+    .skill-card:nth-child(2) .skill-level {
+        background: #1f242d;
+        border-color: #FFDF80;
+        color: wheat;
     }
     
-    .Softskill {
-        height: 300px;
-        width: 40%;
-        border: 1px solid snow;
+    .skill-card:nth-child(3) .skill-level {
+        background: #1f242d;
+        border-color: #FFDF80;
+        color: wheat;
     }
     
-    .Javascript {
-        height: 150px;
-        width: 100px;
-        border: 2px solid snow;
-        background-image: url(/resources/JavaScript.png);
-        background-size: cover;
+    .skill-card:nth-child(4) .skill-level {
+        background: #1f242d;
+        border-color: #FFDF80;
+        color: wheat;
+        margin-left: 350px;
+    }
+    
+    .skill-card:nth-child(5) .skill-level {
+        background: #1f242d;
+        border-color: #FFDF80;
+        color: wheat;
+        margin-left: 350px;
     }
