@@ -17,7 +17,7 @@ function checkScreenSize() {
 
     // Check if screen size is smaller than 14 inches
     if (screenSizeInches < 14) {
-        alert("Please open this website on a 14-inch laptop to view content. Thanks for Visiting ©Rohit ");
+        alert("Please open this website on above 14-inch screen (laptop/computer) to view content. Thanks for Visiting :) ©Rohit ");
     } else {
         // If the screen size is appropriate, display the content
         document.querySelector('body').style.display = 'block';
