@@ -8,7 +8,13 @@
 body {
     background-color: #1f242d;
     color: #fff;
+    display: none;
 }
+
+
+/* .show {
+    display: block;
+} */
 
 .header {
     position: fixed;
