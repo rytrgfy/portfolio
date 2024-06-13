@@ -11,6 +11,7 @@ var typing = new Typed(".typing", {
 function checkScreenSize() {
     var screenWidth = window.innerWidth;
     var screenHeight = window.innerHeight;
+    var count = 0;
 
     // Calculate the screen size in inches
     var screenSizeInches = Math.sqrt(Math.pow(screenWidth / window.devicePixelRatio, 2) + Math.pow(screenHeight / window.devicePixelRatio, 2)) / 96;
@@ -25,7 +26,12 @@ function checkScreenSize() {
 
     // Check for the second condition
     if (screenSizeInches >= 14) {
-        alert("Try to move your cursor in the images for a beautiful effect");
+        if (count == 0) {
+            alert("Try to move your cursor in the images for a beautiful effect");
+            count++;
+        }
+
+
     }
 }
 
